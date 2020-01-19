@@ -77,7 +77,6 @@ async function execute(message, serverQueue) {
             volume: 5,
             playing: true,
         }
-        console.log('here', queueContruct)
         queue.set(message.guild.id, queueContruct)
 
         queueContruct.songs.push(song)
